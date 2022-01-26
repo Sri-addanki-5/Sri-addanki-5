@@ -11,6 +11,7 @@ class EmpData{
         System.out.println("enter the empTechnology: "+empTechnology);
     }
 }
+
 class EmpAddress{
     String empArea = "Mookamaidi";
     String empCity = "Palvancha";
@@ -27,6 +28,8 @@ class EmpAddress{
     }
 
 }
+
+
 class EmpDetails{
     public static void main(String[] args){
         EmpData ed = new EmpData();
